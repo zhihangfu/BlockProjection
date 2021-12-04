@@ -9,7 +9,7 @@ import rhinoscriptsyntax as rs
 
 # ask for inputs
 blocks = rs.GetObjects(message="Select blocks to project", filter=4096, preselect=True, select=True)
-targets = rs.GetObjects(message="Select surfaces, polysurfaces, SubDs and meshes to project onto", filter=8|16|32|1073741824) # not applicable for SubD(262144)
+targets = rs.GetObjects(message="Select surfaces, polysurfaces, and meshes to project onto", filter=8|16|32|1073741824) # not applicable for SubD(262144)
 
 # tweak blocks one by one
 count = 0
