@@ -1,4 +1,4 @@
-# BlockProjection
+# BlockProject
 Rhino Python script to project blocks (often entourage rendering elements) onto faces.
 
 Currently not applicable to SubD faces, because there are only ["ProjectPointToSurface"](https://developer.rhino3d.com/api/RhinoScriptSyntax/#collapse-ProjectPointToSurface) and ["ProjectPointToMesh"](https://developer.rhino3d.com/api/RhinoScriptSyntax/#pointvector-ProjectPointToMesh) commands in [rhinoscriptsytanx](https://developer.rhino3d.com/api/RhinoScriptSyntax/) library.
