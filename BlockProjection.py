@@ -34,6 +34,7 @@ for b in blocks:
             rs.MoveObject(b, movement)
             count += 1
 
+# Print log to command line
 print "Projected",
 print count,
 print "Blocks to targets."
